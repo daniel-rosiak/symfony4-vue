@@ -2,7 +2,7 @@
 
 Test application, symfony 4 + VUE.js
 
-##Instalation
+## Instalation
 ```
 composer update
 ```
@@ -14,7 +14,7 @@ yarn
 yarn encore dev
 ```
 
-##Start application
+## Start application
 ```
 php bin/console server:run
 ```
