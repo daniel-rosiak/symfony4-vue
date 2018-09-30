@@ -1,0 +1,19 @@
+.content {
+  padding: 100px 0;
+
+  ul {
+    display:grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    li {
+      border: 2px solid $color-orange;
+      border-radius: $border-radius;
+      padding: 20px;
+      display:flex;
+      justify-content: space-between;
+    }
+
+
+  }
+}

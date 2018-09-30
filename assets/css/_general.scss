@@ -1,0 +1,26 @@
+body, html {
+  font-size:12px;
+  font-family: 'Roboto', sans-serif;
+  background-color: $color-base;
+}
+
+ul {
+  list-style:none;
+  padding:0px;
+}
+
+button {
+  outline: none;
+  color: $color-white;
+  font-weight:500;
+}
+
+.container {
+  @include clearfix;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: $width-content;
+}
+

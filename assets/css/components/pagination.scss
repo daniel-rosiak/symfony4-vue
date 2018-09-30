@@ -1,0 +1,11 @@
+.pagination {
+  text-align: center;
+  margin: 30px 0;
+  button {
+    background-color: $color-green;
+    border: 2px solid $color-green;
+    border-radius: $border-radius;
+    padding:6px 40px;
+    margin: 0 10px;
+  }
+}
